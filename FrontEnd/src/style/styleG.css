@@ -1,0 +1,16 @@
+body{
+    background: #000000; 
+}
+
+
+.form{
+    background-color: #FF9F29;
+    width: 800px;
+    margin: 150px auto;
+    padding: 40px;
+}
+
+.tabla{
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px;}
