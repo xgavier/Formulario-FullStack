@@ -5,7 +5,7 @@ const nuevos = require("./src/controllers/poesia.controller");
 mongoose.Promise = global.Promise;
 
 mongoose
-  .connect("mongodb://localhost:27017/ProyectoF", {
+  .connect("mongodb+srv://admin:admin@pc-tips.ahdjmhl.mongodb.net/pc-tips?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
